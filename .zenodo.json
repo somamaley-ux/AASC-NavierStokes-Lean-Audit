@@ -1,0 +1,21 @@
+{
+  "title": "AASC Navier-Stokes Lean A+ Audit Archive",
+  "upload_type": "software",
+  "description": "Lean 4 manuscript-facing A+ audit archive for the AASC proof spine of Carrier Universality and Global Smoothness for the Periodic 3D Navier-Stokes Equations. The archive contains the compact 36-obligation route, 492-row manuscript correspondence classification, high-review-risk row constants, audit scripts, and human-facing audit reports.",
+  "creators": [
+    {
+      "name": "Maley, Soma"
+    }
+  ],
+  "keywords": [
+    "Lean 4",
+    "Navier-Stokes",
+    "AASC",
+    "formalization",
+    "proof audit",
+    "manuscript-facing theorem routing"
+  ],
+  "version": "v1.0.1",
+  "publication_date": "2026-06-03",
+  "access_right": "open"
+}
