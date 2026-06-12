@@ -41,9 +41,7 @@ trajectory. Therefore $\mathcal I_x(t)$ cannot remain bounded as $t\uparrow T_*(
 \end{proof}
 
 \subsection{Threshold selectors and forbidden same-scope gates}
-The structural point is not that $\mathcal I_x$ fails to exist. It is that using it as an independent
-same-scope continuation test requires an extra threshold, tolerance, or horizon selector not contained
-in the fixed carrier.
+The structural point is not that $\mathcal I_x$ fails to exist, nor that the BKM criterion is invalid as PDE analysis. The point is role discipline: using $\mathcal I_x$ as an independent same-scope endpoint authority requires an extra threshold, tolerance, or horizon selector not contained in the fixed carrier.
 
 \begin{definition}[Finite-threshold BKM gate]\label{def:finite-threshold-bkm-gate}
 Fix $M>0$ and $T>0$. The associated finite-threshold BKM gate on realized trajectories is
@@ -53,6 +51,16 @@ G^{\mathrm{BKM}}_{M,T}(x):=\mathbf 1\!\left[\sup_{0\le t<T}\mathcal I_x(t)\le M\
 More generally, a BKM-profile gate is any same-scope rule asserting continuation from a comparison of
 $\mathcal I_x(t)$ with a prescribed bound, threshold, tolerance, or growth profile as $t\uparrow T$.
 \end{definition}
+
+
+\begin{manualproposition}[C.3A (BKM observable as metric witness bookkeeping, not endpoint authority)]
+\phantomsection\manualcurrentlabel{C.3A}\label{prop:bkm-metric-witness-not-authority}
+The BKM-type observable $\mathcal I_x$ has two different roles that must not be conflated. As a classical conditional continuation observable it can record a standard pre-horizon blow-up implication and may witness obstruction to a local continuation estimate. As a same-scope endpoint authority, however, it has no independent force: on the fixed periodic carrier it is either licensed metric bookkeeping, quotient-visible witness bookkeeping subordinate to the horizon discriminator, or an illicit metric gate if promoted beyond that role.
+\end{manualproposition}
+
+\begin{proof}
+The observable $\mathcal I_x$ is computed from the realized vorticity field and therefore is a lawful metric descriptor on the realized lineage. Lemma~\ref{lem:bkm-growth-at-breakdown} records the standard conditional continuation consequence. But Theorem~\ref{thm:metric-non-authority-periodic-carrier} applies to BKM-type observables specifically: metric divergence does not create a same-scope endpoint status. Thus $\mathcal I_x$ may serve as witness bookkeeping for an already fixed finite-horizon failure, but any attempt to use it as an independent same-scope gate is illicit.
+\end{proof}
 
 \begin{proposition}[Worked translation: BKM-type continuation tests force $S3$]\label{prop:bkm-forces-s3}
 Let $x\in I_{\mathrm{car}}(\T^3,\nu)$ and suppose a same-scope continuation statement for the realized
@@ -64,7 +72,7 @@ not already licensed by the fixed carrier.
 
 \begin{proof}
 The observable $\mathcal I_x(t)$ is built from the realized vorticity field and is therefore a lawful
-PDE-side quantity. The extra structure enters when one attempts to turn $\mathcal I_x$ into a
+PDE-side metric quantity. Proposition~\ref{prop:bkm-metric-witness-not-authority} fixes its licit status: it may be bookkeeping or witness bookkeeping, but not independent endpoint authority. The extra structure enters when one attempts to turn $\mathcal I_x$ into a
 same-scope continuation criterion.
 
 For the finite-threshold gate $G^{\mathrm{BKM}}_{M,T}$, the rule depends on the choice of the external
@@ -89,7 +97,7 @@ then one additionally enters the bundle-exemption branches $S1$ or $S2$.
 \begin{proof}
 The first statement is Proposition~\ref{prop:bkm-forces-s3}. If the gate is weakened by saying, for
 example, that only selected portions of the trajectory, selected regions of the flow, or selected
-instances of large vorticity matter, then the rule no longer treats the bundle clauses uniformly on the
+instances of large vorticity matter, then the rule not treats the bundle clauses uniformly on the
 fixed carrier. That is precisely the move-class captured by $S1$ or $S2$ in the main theorem package.
 \end{proof}
 

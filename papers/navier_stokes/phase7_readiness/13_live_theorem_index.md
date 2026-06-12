@@ -1,4 +1,4 @@
-# Live theorem index (Phase 7 quick audit)
+# Live theorem index (closure audit quick audit)
 
 Purpose: give a short label-local map of the live proof spine without relying on Appendix F alone.
 
@@ -6,6 +6,20 @@ Purpose: give a short label-local map of the live proof spine without relying on
 - same-scope periodic classical target
 - same-object convention for the realized maximal classical lineage
 - theorem map / denial map / proof spine
+
+
+## Controlled corpus-matrix refinement additions
+- 3.4A fixed-domain comparison class for the official periodic problem
+- 3.4B same-scope counterexample
+- 13K.1 fixed-domain counterexample and criterion audit
+- 13.23A.6 metric non-authority theorem for the periodic carrier
+- 18.0A realized continuation locus
+- 18.0B boundary trace of a realized lineage
+- 18.0C persistence regime for realized lineages
+- 19E.1 continuation-locus fixity
+- 19E.2 boundary-trace nonpromotion
+- 19E.3 persistence-regime realization
+- Appendix F corpus matrix reconciliation, role-cardinality endpoint audit, and claim-status warrant
 
 ## Fixed-scope bridge and carrier certification
 - bridge packet through 12H

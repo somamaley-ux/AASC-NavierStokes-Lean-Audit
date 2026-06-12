@@ -19,13 +19,13 @@
 
 ## Disposition
 - No manuscript change required
-- Expository patch required
-- Substantive patch required
-- Primitive disagreement rather than internal gap
+- Expository revision required
+- Substantive revision required
+- Primitive disagreement rather than internal theorem-local defect
 
-## If a patch is required
+## If a revision is required
 - Affected labels:
-- Type of patch:
+- Type of revision:
 - Whether the source hash changes:
 - Whether the public errata policy is triggered:
 - Follow-up version identifier:

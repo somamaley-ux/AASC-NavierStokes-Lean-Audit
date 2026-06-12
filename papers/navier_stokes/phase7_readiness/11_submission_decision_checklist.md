@@ -1,4 +1,4 @@
-# Submission go / no-go checklist
+# Submission submission decision checklist
 
 Use this immediately before journal submission. A “go” requires every item below to be checked and evidenced.
 
@@ -25,10 +25,10 @@ Use this immediately before journal submission. A “go” requires every item b
 - [ ] 20. A foundations critic cannot preserve a live objection without denying a named theorem or primitive assumption.
 - [ ] 21. A generalist can audit the proof from the PDF alone.
 
-## Phase 7 publication / scrutiny track
+## closure audit publication / scrutiny track
 - [ ] 22. A plausible target journal has been chosen and justified from public editorial / peer-review information.
 - [ ] 23. The package is ready for public scrutiny as a complete proposed solution rather than as a framework note.
-- [ ] 24. Three hostile reads have been completed in writing: PDE, foundations, generalist.
+- [ ] 24. Three skeptical reads have been completed in writing: PDE, foundations, generalist.
 - [ ] 25. The source bundle hash, build scripts, and QA report are frozen for the version being submitted.
 - [ ] 26. The public errata policy and theorem-local response template are ready before submission.
 - [ ] 27. The editor cover note has been checked against the exact manuscript version and source hash.

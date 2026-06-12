@@ -8,7 +8,7 @@
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
-\title{\textbf{Phase 7 Submission and Scrutiny Readiness Pack}\\[0.3em]\large Non-proof-bearing companion to the clay-level standalone manuscript}
+\title{\textbf{Submission and Scrutiny Readiness Pack}\\[0.3em]\large Non-proof-bearing companion to the manuscript package}
 \author{Amos Jay Maley}
 \date{March 22, 2026}
 
@@ -16,7 +16,11 @@
 \maketitle
 
 \section*{Status}
-This document is intentionally \emph{non-proof-bearing}. It does not alter the theorem or the live dependency chain of the manuscript \emph{Carrier Universality and Global Smoothness for the Periodic 3D Navier--Stokes Equations}. Its role is to complete Phase~7 of the updated clay-level closure plan: target-journal choice, hostile-read preparation, reproducibility freeze, errata posture, and public-scrutiny readiness.
+This document is intentionally \emph{non-proof-bearing}. It does not alter the theorem or the live dependency chain of the manuscript \emph{Carrier Universality and Global Smoothness for the Periodic 3D Navier--Stokes Equations}. Its role is to complete the submission-readiness record: target-journal choice, stress-test preparation, reproducibility freeze, errata posture, and public-scrutiny readiness.
+
+
+\section{Reader orientation}
+The live proof route should be read through the following seven-step spine: kernel necessity; ambient counterexamplehood as theorem-bearing construction; Fefferman proof/refutation-regime non-degeneracy; finite-horizon endpoint condition; Counterexample Soundness; endpoint-status exhaustion; and branch elimination. The manuscript's length reflects theorem-local audit and objection control, not a change in the proof class. The standalone orientation file is bundled at \texttt{docs/orientation\_spine.md}.
 
 \section{Clay-rule posture}
 Under the official Clay rules, direct submission to the Clay Mathematics Institute is not the route for a proposed solution. The operative track is: publication in a refereed mathematics venue of worldwide repute (or another form later deemed qualifying), followed by public mathematical examination and at least two years of general acceptance before prize consideration. This readiness pack therefore treats journal fit and public scrutiny as first-class operational tasks.
@@ -33,10 +37,10 @@ Journal of the European Mathematical Society & EMS Press public pages remain cur
 \end{tabularx}
 
 \paragraph{Operational decision.}
-The Phase~7 recommendation is: \textbf{submit first to ARMA}, keep \textbf{APDE} as the specialist backup, and treat \textbf{JEMS} as a prestige backup only if the author is comfortable with the current length issue and the likely longer editorial cycle.
+The submission-readiness recommendation is: \textbf{submit first to ARMA}, keep \textbf{APDE} as the specialist backup, and treat \textbf{JEMS} as a prestige backup only if the author is comfortable with the current length issue and the likely longer editorial cycle.
 
-\section{Three hostile reads before submission}
-The submission packet should not go out until three written hostile reads have been completed:
+\section{Three skeptical reads before submission}
+The submission packet should not go out until three written skeptical reads have been completed:
 \begin{enumerate}[leftmargin=1.5em]
 \item \textbf{PDE analyst} --- audits Part~III, Appendix~B, the official endpoint match, and the PDE-native admissibility / witness packet.
 \item \textbf{Foundations / scope critic} --- audits same-scope, admissibility, quotient / factorization, no-admissibility-dynamics, and the no-third-status closure.
@@ -45,7 +49,7 @@ The submission packet should not go out until three written hostile reads have b
 Each surviving objection must point to a named theorem, definition, appendix, or primitive assumption. The detailed packets live in \texttt{phase7\_readiness/02--05}.
 
 \section{Source freeze, build scripts, and QA}
-This project now includes:
+This project includes:
 \begin{itemize}[leftmargin=1.5em]
 \item local build scripts in \texttt{tools/},
 \item a frozen source-hash manifest in \texttt{phase7\_readiness/06\_source\_manifest\_sha256.txt},
@@ -60,14 +64,14 @@ The readiness pack also includes:
 \item a public errata policy,
 \item a theorem-local public response template,
 \item a post-publication scrutiny plan,
-\item a final go / no-go checklist.
+\item a final submission decision checklist.
 \end{itemize}
 The governing rule is simple: no side note becomes proof-bearing. If a correction changes the proof, the manuscript itself changes and the source hash is refreshed.
 
 \section{Go / no-go rule}
 Do \emph{not} submit until:
 \begin{enumerate}[leftmargin=1.5em]
-\item the three hostile reads are on file,
+\item the three skeptical reads are on file,
 \item the manuscript version and source hash are frozen,
 \item the QA report is refreshed for that version,
 \item the editor cover note is checked against the exact version being submitted.
@@ -75,6 +79,10 @@ Do \emph{not} submit until:
 The detailed checklist is bundled in \texttt{phase7\_readiness/11\_submission\_go\_no\_go\_checklist.md}.
 
 \section*{Bottom line}
-Phase~7 does not change the mathematics. It changes the \emph{publication posture}: the manuscript is now paired with a current journal-target matrix, hostile-read packets, a reproducible source freeze, and a public-scrutiny protocol appropriate for a serious proposed solution to a Clay problem.
+This readiness pack does not change the mathematics. It changes the \emph{publication posture}: the manuscript is paired with a current journal-target matrix, stress-test packets, a reproducible source freeze, and a public-scrutiny protocol appropriate for a serious proposed solution to a Clay problem.
+
+
+\section*{Proof-class correction: method-neutral impossibility route}
+This readiness pack treats the manuscript as a constraint-formalism impossibility proof, not as a PDE-native continuation-estimate proof. Clay's official rules require a complete mathematical solution to the official problem description; they do not prescribe a PDE-native method class. The correct stress-test protocol therefore targets kernel necessity, official-periodic non-degeneracy, finite-horizon endpoint-condition soundness, endpoint-status exhaustion, and branch elimination, rather than the absence of a conventional vortex-stretching estimate.
 
 \end{document}

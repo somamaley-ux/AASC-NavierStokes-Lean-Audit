@@ -1,6 +1,6 @@
-# Hostile-read packet B: foundations / scope critic
+# Stress-test packet B: foundations / scope critic
 
-You are reading the manuscript as a hostile critic of scope, admissibility, and framework capture.
+You are reading the manuscript as a skeptical critic of scope, admissibility, and framework capture.
 
 ## Your task
 Test whether the standalone PDF still leaves any neutral “outside the framework” possibility alive.
@@ -18,4 +18,4 @@ Test whether the standalone PDF still leaves any neutral “outside the framewor
 10. If you think the 12F seam is circular, can you identify whether the failure is: (i) 12F as premise, (ii) 12G/P4 application, or (iii) downstream transport through 13K / ST3 / 20C?
 
 ## Deliverable
-Every objection must point to a named theorem, definition, corollary, or primitive assumption. If your complaint is that the primitive architecture itself is unacceptable, say so directly instead of reporting it as an internal proof gap.
+Every objection must point to a named theorem, definition, corollary, or primitive assumption. If your complaint is that the primitive architecture itself is unacceptable, say so directly instead of reporting it as an internal proof-class seam.

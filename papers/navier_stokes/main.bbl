@@ -1,0 +1,476 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{bkm1984}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8a8f6bb51c67bb3ba50d00ec6832feb9}{%
+           family={Beale},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi Thomas},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=de2df565ad24725681a931fe6bd95efd}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Tosio},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b04b72d54d9970038738e4ee39443568}{%
+           family={Majda},
+           familyi={M\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{fullhash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{fullhashraw}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{bibnamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorbibnamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authornamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorfullhash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorfullhashraw}{9993b4794218d494b2e5ab6cd079260d}
+      \field{labelalpha}{BKM84}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{title}{Remarks on the breakdown of smooth solutions for the {3-D} {E}uler equations}
+      \field{volume}{94}
+      \field{year}{1984}
+      \field{pages}{61\bibrangedash 66}
+      \range{pages}{6}
+    \endentry
+    \entry{constantin-fefferman1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f2184f5b6f3a0a131ecd61e0d8be22f}{%
+           family={Constantin},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c2c3e233dc770920f785d9e94fc94140}{%
+           family={Fefferman},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{fullhash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{fullhashraw}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{bibnamehash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{authorbibnamehash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{authornamehash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{authorfullhash}{2a181bdadd7dcf64d6e26c06742207be}
+      \strng{authorfullhashraw}{2a181bdadd7dcf64d6e26c06742207be}
+      \field{labelalpha}{CF93}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Indiana University Mathematics Journal}
+      \field{title}{Direction of vorticity and the problem of global regularity for the {N}avier--{S}tokes equations}
+      \field{volume}{42}
+      \field{year}{1993}
+      \field{pages}{775\bibrangedash 789}
+      \range{pages}{15}
+    \endentry
+    \entry{ckn1982}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3991522afc177c36148555b3758df0e0}{%
+           family={Caffarelli},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=eb1882a0a114f6c1c7967db0eb33d20d}{%
+           family={Kohn},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=eab0d0f737d44d10af4203211c6c6225}{%
+           family={Nirenberg},
+           familyi={N\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{fullhash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{fullhashraw}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{bibnamehash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{authorbibnamehash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{authornamehash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{authorfullhash}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \strng{authorfullhashraw}{dc1d5b4bb040d996b5b880d5a6d2fdd6}
+      \field{labelalpha}{CKN82}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications on Pure and Applied Mathematics}
+      \field{title}{Partial regularity of suitable weak solutions of the {N}avier--{S}tokes equations}
+      \field{volume}{35}
+      \field{year}{1982}
+      \field{pages}{771\bibrangedash 831}
+      \range{pages}{61}
+    \endentry
+    \entry{cmi-millennium-rules}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=caa50fabe3a9f5364972decb53d0ac5b}{%
+           family={{Clay Mathematics Institute}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{fullhash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{fullhashraw}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{bibnamehash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{authorbibnamehash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{authornamehash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{authorfullhash}{caa50fabe3a9f5364972decb53d0ac5b}
+      \strng{authorfullhashraw}{caa50fabe3a9f5364972decb53d0ac5b}
+      \field{labelalpha}{Cla22}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official rules statement approved by the Board of Directors of the Clay Mathematics Institute}
+      \field{title}{Millennium Prize Description and Rules}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.claymath.org/wp-content/uploads/2022/03/millennium_prize_rules_0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.claymath.org/wp-content/uploads/2022/03/millennium_prize_rules_0.pdf
+      \endverb
+    \endentry
+    \entry{ess2003}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ed2e5cdd3fdfad5fdaae063767d8eb34}{%
+           family={Escauriaza},
+           familyi={E\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=59ce517bc2180299d6680066039b1c91}{%
+           family={Seregin},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c259e79145f5420bf230480e5cc0daa9}{%
+           family={{S}ver'ak},
+           familyi={S\bibinitperiod},
+           given={Vladim'ir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{fullhash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{fullhashraw}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{bibnamehash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{authorbibnamehash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{authornamehash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{authorfullhash}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \strng{authorfullhashraw}{040c08fcdb5dc572ad0b05e7424a65c1}
+      \field{labelalpha}{ESS03}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Uspekhi Matematicheskikh Nauk}
+      \field{number}{2}
+      \field{title}{{$L_{3,\infty}$}-solutions of {N}avier--{S}tokes equations and backward uniqueness}
+      \field{volume}{58}
+      \field{year}{2003}
+      \field{pages}{3\bibrangedash 44}
+      \range{pages}{42}
+    \endentry
+    \entry{fefferman-navierstokes-problem}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=be55112000afbeeb468115c3794ad846}{%
+           family={Fefferman},
+           familyi={F\bibinitperiod},
+           given={Charles\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{be55112000afbeeb468115c3794ad846}
+      \strng{fullhash}{be55112000afbeeb468115c3794ad846}
+      \strng{fullhashraw}{be55112000afbeeb468115c3794ad846}
+      \strng{bibnamehash}{be55112000afbeeb468115c3794ad846}
+      \strng{authorbibnamehash}{be55112000afbeeb468115c3794ad846}
+      \strng{authornamehash}{be55112000afbeeb468115c3794ad846}
+      \strng{authorfullhash}{be55112000afbeeb468115c3794ad846}
+      \strng{authorfullhashraw}{be55112000afbeeb468115c3794ad846}
+      \field{labelalpha}{Fef06}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official Clay Mathematics Institute problem statement}
+      \field{title}{Existence and Smoothness of the Navier--Stokes Equation}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf
+      \endverb
+    \endentry
+    \entry{hopf1951}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cfa53cf888d7bebca9763a0bf23afe8e}{%
+           family={Hopf},
+           familyi={H\bibinitperiod},
+           given={Eberhard},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{fullhash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{fullhashraw}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{bibnamehash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{authorbibnamehash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{authornamehash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{authorfullhash}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \strng{authorfullhashraw}{cfa53cf888d7bebca9763a0bf23afe8e}
+      \field{labelalpha}{Hop51}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematische Nachrichten}
+      \field{title}{"{U}ber die Anfangswertaufgabe f"{u}r die hydrodynamischen Grundgleichungen}
+      \field{volume}{4}
+      \field{year}{1951}
+      \field{pages}{213\bibrangedash 231}
+      \range{pages}{19}
+    \endentry
+    \entry{koch-tataru2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2bc780d9f059777d8c85a0ee478a9cb1}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4c4b5ecfb1c1107fa8c763fd8fe4e7ab}{%
+           family={Tataru},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{fullhash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{fullhashraw}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{bibnamehash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{authorbibnamehash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{authornamehash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{authorfullhash}{3b82af5a5753b440fe5070ca01d77899}
+      \strng{authorfullhashraw}{3b82af5a5753b440fe5070ca01d77899}
+      \field{labelalpha}{KT01}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Mathematics}
+      \field{title}{Well-posedness for the {N}avier--{S}tokes equations}
+      \field{volume}{157}
+      \field{year}{2001}
+      \field{pages}{22\bibrangedash 35}
+      \range{pages}{14}
+    \endentry
+    \entry{leray1934}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1c85ad391835096e0ab05bb90e4a799}{%
+           family={Leray},
+           familyi={L\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{fullhash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{fullhashraw}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{bibnamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorbibnamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authornamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorfullhash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorfullhashraw}{d1c85ad391835096e0ab05bb90e4a799}
+      \field{labelalpha}{Ler34}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica}
+      \field{title}{Sur le mouvement d'un liquide visqueux emplissant l'espace}
+      \field{volume}{63}
+      \field{year}{1934}
+      \field{pages}{193\bibrangedash 248}
+      \range{pages}{56}
+    \endentry
+    \entry{maley-navierstokes-lean-audit}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=d90a6d994112d48ac33edfa76641a8ce}{%
+           family={Maley},
+           familyi={M\bibinitperiod},
+           given={Amos\bibnamedelima Jay},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{fullhash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{fullhashraw}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{bibnamehash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{authorbibnamehash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{authornamehash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{authorfullhash}{d90a6d994112d48ac33edfa76641a8ce}
+      \strng{authorfullhashraw}{d90a6d994112d48ac33edfa76641a8ce}
+      \field{labelalpha}{Mal26}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{6}
+      \field{note}{Lean 4 A+ manuscript-facing theorem-routing and audit formalization for \emph{Carrier Universality and Global Smoothness for the Periodic 3D Navier--Stokes Equations}; public GitHub repository: \url{https://github.com/somamaley-ux/AASC-NavierStokes-Lean-Audit}}
+      \field{title}{AASC-NavierStokes-Lean-Audit: Navier--Stokes A+ Lean Audit Archive}
+      \field{version}{1.0.2}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.20524517
+      \endverb
+    \endentry
+    \entry{necas1996}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ebf01dcad05337fc4fe074210fea291a}{%
+           family={Ne\bibnamedelima {c}as},
+           familyi={N\bibinitperiod\bibinitdelim c\bibinitperiod},
+           given={Jind\bibnamedelima {r}ich},
+           giveni={J\bibinitperiod\bibinitdelim r\bibinitperiod}}}%
+        {{hash=11d9a798bca514e4fadb6f6107f0a4b6}{%
+           family={R\bibnamedelima {u}\bibnamedelimb {z}i\bibnamedelima {c}ka},
+           familyi={R\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim z\bibinitperiod\bibinitdelim c\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c259e79145f5420bf230480e5cc0daa9}{%
+           family={{S}ver'ak},
+           familyi={S\bibinitperiod},
+           given={Vladim'ir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{fullhash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{fullhashraw}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{bibnamehash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{authorbibnamehash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{authornamehash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{authorfullhash}{dbbd6d040637f2b8226c600b504f0eb5}
+      \strng{authorfullhashraw}{dbbd6d040637f2b8226c600b504f0eb5}
+      \field{labelalpha}{NRS96}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica}
+      \field{title}{On {L}eray's self-similar solutions of the {N}avier--{S}tokes equations}
+      \field{volume}{176}
+      \field{year}{1996}
+      \field{pages}{283\bibrangedash 294}
+      \range{pages}{12}
+    \endentry
+    \entry{prodi1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2e14bd4cfb690017c835b6acd5119bdf}{%
+           family={Prodi},
+           familyi={P\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{fullhash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{fullhashraw}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{bibnamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorbibnamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authornamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorfullhash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorfullhashraw}{2e14bd4cfb690017c835b6acd5119bdf}
+      \field{labelalpha}{Pro59}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annali di Matematica Pura ed Applicata}
+      \field{title}{Un teorema di unicità per le equazioni di {N}avier-{S}tokes}
+      \field{volume}{48}
+      \field{year}{1959}
+      \field{pages}{173\bibrangedash 182}
+      \range{pages}{10}
+    \endentry
+    \entry{serrin1962}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=013dc640736ae541ed53321cf37faf1e}{%
+           family={Serrin},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \strng{bibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorbibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authornamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \field{labelalpha}{Ser62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archive for Rational Mechanics and Analysis}
+      \field{title}{On the interior regularity of weak solutions of the {N}avier--{S}tokes equations}
+      \field{volume}{9}
+      \field{year}{1962}
+      \field{pages}{187\bibrangedash 195}
+      \range{pages}{9}
+    \endentry
+    \entry{tsai1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef39b011d18a0b345007bf3d1b680133}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Tai-Peng},
+           giveni={T\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{fullhash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{fullhashraw}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{bibnamehash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{authorbibnamehash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{authornamehash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{authorfullhash}{ef39b011d18a0b345007bf3d1b680133}
+      \strng{authorfullhashraw}{ef39b011d18a0b345007bf3d1b680133}
+      \field{labelalpha}{Tsa98}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archive for Rational Mechanics and Analysis}
+      \field{title}{On {L}eray's self-similar solutions of the {N}avier--{S}tokes equations satisfying local energy estimates}
+      \field{volume}{143}
+      \field{year}{1998}
+      \field{pages}{29\bibrangedash 51}
+      \range{pages}{23}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

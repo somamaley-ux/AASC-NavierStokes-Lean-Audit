@@ -1,53 +1,47 @@
-Phase 7 + bridge-patch Phase 6 local build and QA report
-Date frozen: 2026-03-22 UTC
+# Build and QA report
 
-Build commands executed successfully:
-1. latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
-2. latexmk -pdf -interaction=nonstopmode -halt-on-error phase7_readiness_pack.tex
-3. latexmk -pdf -interaction=nonstopmode -halt-on-error supplementary_referee_dossier.tex
-4. tools/hash_bundle.sh
+This readiness note is non-proof-bearing. It records the build and presentation checks for the publication-facing orientation package.
 
-Output artifacts:
-- main.pdf
-- phase7_readiness_pack.pdf
-- supplementary_referee_dossier.pdf
-- phase7_readiness/06_source_manifest_sha256.txt
+## Build commands
 
-PDF metadata / page counts:
-MAIN
-Title:           Carrier Universality and Global Smoothness for the Periodic 3D Navier–Stokes Equations
-Subject:         The official periodic theorem as a corollary of structural necessity
-Author:          Amos Jay Maley
-Pages:           158
-Page size:       612 x 792 pts (letter)
+From the project root:
 
-READINESS PACK
-Pages:           3
-Page size:       612 x 792 pts (letter)
+```bash
+latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error phase7_readiness_pack.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error supplementary_referee_dossier.tex
+```
 
-SUPPLEMENTARY REFEREE DOSSIER
-Title:           Supplementary Referee Dossier – Bridge-patch Phase 6 audit
-Author:          OpenAI
-Pages:           5
-Page size:       612 x 792 pts (letter)
+## Current build result
 
-Reference / citation QA:
-- No undefined references found in main.log.
-- No undefined citations found in main.log.
-- phase7_readiness_pack.tex compiles without bibliography dependencies.
-- supplementary_referee_dossier.tex compiles without bibliography dependencies.
+- `main.pdf` compiles successfully.
+- `phase7_readiness_pack.pdf` compiles successfully.
+- `supplementary_referee_dossier.pdf` compiles successfully.
+- No undefined references or undefined citations were found in the final logs.
+- Remaining LaTeX warnings are cosmetic overfull / underfull box warnings in dense front-matter and audit tables.
 
-Visual QA spot-check:
-- Reviewed the page-1 front matter carrying the bridge-patch live dependency chain.
-- Reviewed the 12F / 12G neighborhood and the Appendix F bridge-patch Phase 5 / Phase 6 audit sections.
-- Reviewed the supplementary referee dossier cover and denial-by-theorem map.
-- No clipping, overlap, or missing glyphs were observed in the inspected rendered pages.
+## Presentation sweep
 
-Known non-fatal layout warnings:
-- The manuscript still contains several legacy overfull/overheight box warnings inherited from earlier phases.
-- These warnings did not block compilation and the inspected rendered pages remained legible.
-- The supplementary referee dossier has a few minor overfull hbox warnings in narrow tables; these are cosmetic only.
+The manuscript-facing text was swept for prepublication or conversational language. The current package foregrounds the proof class, front-door seven-step orientation spine, Clay method-neutrality, Lean structural surface status, ambient proof-system subsumption, Fefferman counterexample subsumption, finite-horizon endpoint-condition discipline, and Counterexample Soundness.
 
-Hash manifest summary:
-55 phase7_readiness/06_source_manifest_sha256.txt
-The manifest was regenerated after the Phase 6 bridge-patch lexical / dossier refresh.
+## Render spot checks
+
+Selected pages were rendered and visually inspected, including the title/front-matter proof-class pages, the new orientation spine, ambient counterexamplehood packet, Fefferman counterexample subsumption, Counterexample Soundness, and Appendix F referee-objection maps. No fatal clipping, missing glyphs, black-box rendering defects, or unreadable orientation boxes were observed.
+
+## Publication-facing orientation polish
+
+Final presentation sweep completed after the reader-orientation pass:
+- Preserved the full theorem-local defense apparatus and Appendix F audit material.
+- Added a front-door seven-step proof spine and fast denial targets so the live proof route is visible before the extended audit layers.
+- Replaced manuscript-facing working-session vocabulary with publication-facing language where it was visible in the manuscript, README, readiness pack, and supplementary dossier.
+- Renamed package-facing referee delta / log files to refinement-oriented names and refreshed the package manifest accordingly.
+- Disabled PDF outline bookmarks for the main manuscript because the theorem-audit headings are intentionally long; this avoids fragile outline metadata while preserving the PDF body and hyperlinks.
+
+Final verified page counts:
+- main.pdf: 182 pages.
+- phase7_readiness_pack.pdf: 3 pages.
+- supplementary_referee_dossier.pdf: 7 pages.
+
+## Final role-equivalence presentation pass
+
+This pass added explicit ambient proof-role / kernel-role equivalence tables in the front matter and Part II, strengthened Counterexample Soundness wording so it cannot be misread as redefining Fefferman counterexamplehood, and refreshed package-facing language from working-session terminology to publication-facing revision language. Render checks included the role-equivalence front-matter page and the Part II ambient counterexamplehood packet.

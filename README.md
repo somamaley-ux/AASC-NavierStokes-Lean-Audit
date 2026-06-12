@@ -103,3 +103,9 @@ This is an A+ manuscript-facing theorem-routing and audit formalization.  It
 does not reprove all standard classical PDE analysis inside Lean.  Standard
 analytic facts are treated as imported/background boundary where appropriate,
 and the final route records exactly where those boundaries sit.
+
+## Hardened Clay Endpoint Sync
+
+This repository has been synchronized with the hardened Clay endpoint package dated 2026-06-12/2026-06-13. The manuscript-facing snapshot is now in $(System.Collections.Hashtable.dest -replace '\','/') and includes the supplied hardening notes, audit ledgers, verification notes, theorem-ladder or route-locus materials where present, and publication-facing package metadata.
+
+The Lean archive remains the audit surface for the endpoint proof spine; the hardened manuscript package is the reader-facing source snapshot paired with that audit surface.

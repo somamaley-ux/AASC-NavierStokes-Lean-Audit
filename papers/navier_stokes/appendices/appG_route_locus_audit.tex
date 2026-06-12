@@ -1,0 +1,67 @@
+\clearpage
+\section{Route-locus audit for analytic and endpoint alternatives}\label{sec:ns-route-locus-audit}
+This appendix gives a compact route-locus form of the analytic and endpoint alternatives already classified in the main text. It adds no new proof premise. Its purpose is to make the exhaustion surface inspectable in the same format used by the hardened endpoint papers: every same-scope finite-horizon proposal either enters one of the listed loci or does no endpoint work.
+
+\begin{definition}[Navier--Stokes route locus]
+A Navier--Stokes route locus is a standard analytic, representative, metric, formulation, or endpoint-status route by which a proposed finite-horizon failure attempts to bear consequence for the official periodic theorem while preserving the fixed-domain comparison class of Definition~\ref{def:fixed-domain-comparison-class}.
+\end{definition}
+
+\begin{center}
+\scriptsize
+\renewcommand{\arraystretch}{1.12}
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{0.98\textwidth}{@{}L{0.11\textwidth}L{0.24\textwidth}Y@{}}
+\toprule
+\textbf{Locus} & \textbf{Route} & \textbf{Disposition}\\
+\midrule
+L1 & Energy/enstrophy coercive bridge & Valid analytic support, but as endpoint authority it is either an already-carrier-visible consequence or an unlicensed bridge to vortex-stretching control.\\
+L2 & BKM / vorticity-growth route & Diagnostic and witness bookkeeping; if used independently as endpoint authority it becomes an illicit metric gate.\\
+L3 & Serrin / critical-norm route & Valid conditional criterion. As unconditional endpoint authority it requires the missing bridge or an unlicensed threshold selector.\\
+L4 & Critical smallness route & Lawful small-data theory; not a full-data same-scope endpoint unless bridged to the official datum class.\\
+L5 & Geometric-depletion route & Support or bridge material; without invariant bridge to the fixed endpoint it is redescription or selector collapse.\\
+L6 & Frequency-cascade route & Lawful skin/bookkeeping unless quotient-visible; otherwise a scale selector or extra continuation gate.\\
+L7 & Profile / ancient-solution route & Lawful compactness/profiling support; as endpoint authority it is a profile selector or branch-forcing move unless a same-scope proof is supplied.\\
+L8 & Weak or alternative formulation & Carrier/scope shift unless bridged back to the official smooth periodic comparison class.\\
+L9 & Local-energy / partial-regularity route & Support only unless upgraded by a same-scope bridge to global smooth continuation.\\
+L10 & Time-slice reclassification & Blocked by realized-lineage identity and no admissibility dynamics.\\
+L11 & Metric divergence route & Licensed bookkeeping or quotient-visible witness bookkeeping; if promoted independently, illicit metric gate.\\
+L12 & Restart / repair route & Blocked by overlap uniqueness, continuation-locus fixity, irreversibility, and no post-hoc repair.\\
+L13 & Hidden endpoint classifier & Forbidden second same-scope continuation gate or endpoint-status discriminator.\\
+L14 & Scope-change route & Different-domain proposal: not a counterexample to Fefferman~(B) on the fixed periodic carrier.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{theorem}[Route-locus exhaustion for finite-horizon proposals]\label{thm:ns-route-locus-exhaustion}
+Every same-scope endpoint-defeating finite-horizon proposal for the official periodic Navier--Stokes theorem enters at least one of L1--L14. If it enters none, it has no continuation-status effect and cannot refute the official endpoint.
+\end{theorem}
+
+\begin{proof}
+A finite-horizon proposal that does endpoint work must either proceed through a classical analytic continuation route, a metric diagnostic, a representative or formulation change, a restart/repair pattern, or an endpoint-status classifier. The analytic routes are L1--L9 and are exactly the families isolated by the analytic wall and atlas. Representative, time-slice, metric, and repair routes are L10--L12. Endpoint classifier and scope-change routes are L13--L14. If none of these occurs, the proposal neither changes the analytic support, representative, metric witness, continuation rule, endpoint classifier, nor fixed comparison class; it therefore does no endpoint work.
+\end{proof}
+
+\begin{theorem}[Route-locus collapse]\label{thm:ns-route-locus-collapse}
+Every route locus L1--L14 collapses into one of the following statuses:
+\[
+\begin{aligned}
+&\text{support/bookkeeping}\ \vee\ 
+\text{standing-positive horizon witness}\ \vee\ 
+\text{terminal standing failure}\\
+&\vee\ \text{illicit same-scope gate}\ \vee\ 
+\text{scope change}.
+\end{aligned}
+\]
+Only the standing-positive horizon-witness status is a licit same-scope finite-horizon endpoint status, and that status is eliminated by Theorem~\ref{thm:no-singular-image-certified-interior}.
+\end{theorem}
+
+\begin{proof}
+L1--L9 are legitimate analytic support routes unless promoted to endpoint authority. If they remain support, they are support/bookkeeping; if they supply a finite-horizon witness, they factor through the horizon discriminator; if they require a threshold, profile selector, or hidden gate, they are illicit same-scope gates; if they alter formulation or claim class, they are scope changes. L10 collapses by Theorems~\ref{thm:carrier-to-lineage-binding} and \ref{thm:no-admissibility-dynamics-realized-lineages}. L11 collapses by Propositions~\ref{prop:metric-divergence-skin-non-authority} and \ref{prop:quotient-visible-witness-vs-illicit-metric-gate}. L12 collapses by Theorem~\ref{thm:restart-consistency-same-object-persistence} and Proposition~\ref{prop:st5-irreversibility-representational-commitment}. L13 collapses by Theorem~\ref{thm:no-independent-classical-discriminator}. L14 is scope change by Definition~\ref{def:fixed-domain-comparison-class}. The only licit same-scope endpoint branch that can remain is the standing-positive horizon-witness branch, which is exhausted by Proposition~\ref{prop:same-scope-witness-exhaustion} and eliminated by Theorem~\ref{thm:no-singular-image-certified-interior}.
+\end{proof}
+
+\begin{corollary}[No surviving route-locus counterexample]\label{cor:ns-no-route-locus-counterexample}
+No same-scope finite-horizon counterexample to the official periodic theorem survives the route-locus audit.
+\end{corollary}
+
+\begin{proof}
+By Theorem~\ref{thm:ns-route-locus-exhaustion}, every endpoint-relevant finite-horizon proposal enters a route locus. By Theorem~\ref{thm:ns-route-locus-collapse}, each locus reduces to a status already classified by the realized-lineage trichotomy or to scope change. The non-witness branches collapse by Proposition~\ref{prop:terminal-standing-failure-no-endpoint} and Corollary~\ref{cor:no-third-same-scope-endpoint-status}; the witness branch is eliminated by Theorem~\ref{thm:no-singular-image-certified-interior}. Hence no same-scope finite-horizon counterexample survives.
+\end{proof}

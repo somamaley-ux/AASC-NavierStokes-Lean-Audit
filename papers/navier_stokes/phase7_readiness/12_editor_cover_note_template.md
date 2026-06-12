@@ -14,7 +14,7 @@ This paper claims to prove Fefferman's periodic statement (B) for the three-dime
 - the official endpoint theorem is stated near the front and again at the endpoint,
 - the proof is theorem-local and self-contained inside the PDF apart from standard published alignment sources,
 - no proof-bearing supplementary dossier, slide deck, or side memorandum is required,
-- the front matter includes a theorem map, glossary, denial map, and proof spine to support hostile audit by referees.
+- the front matter includes a theorem map, glossary, denial map, and proof spine to support skeptical audit by referees.
 
 The argument is unconventional in method: it is framed as a same-scope closure-induced impossibility proof rather than as a new a priori estimate or constructive continuation scheme. Because of that, the manuscript is written to make every live dependency and every endgame branch explicit in the paper itself.
 

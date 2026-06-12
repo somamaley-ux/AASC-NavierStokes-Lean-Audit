@@ -1,6 +1,6 @@
-# Hostile-read protocol (Phase 7)
+# Stress-test protocol (closure audit)
 
-Purpose: run the three hostile reads required by the clay-level closure plan before any journal submission.
+Purpose: run the three skeptical reads required by the clay-level closure plan before any journal submission.
 
 ## Frozen input packet
 Every reviewer receives the same frozen package:
@@ -44,7 +44,7 @@ For each objection, record one of:
 - **Accepted theorem issue** - manuscript change required
 - **Accepted exposition issue** - wording / navigation change required
 - **Rejected** - theorem-local answer already exists in the current PDF
-- **Primitive disagreement** - the reviewer is denying a named primitive assumption rather than pointing to an internal gap
+- **Primitive disagreement** - the reviewer is denying a named primitive assumption rather than pointing to an internal theorem-local defect
 
 ## Exit condition
 Do not submit until:

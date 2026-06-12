@@ -1,4 +1,4 @@
-# Hostile-read packet C: generalist proof auditor
+# Stress-test packet C: generalist proof auditor
 
 You are reading the manuscript as a technically serious mathematician outside the immediate PDE/foundations niche.
 

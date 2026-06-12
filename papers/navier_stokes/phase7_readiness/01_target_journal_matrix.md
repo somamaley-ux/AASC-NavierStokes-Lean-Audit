@@ -1,4 +1,4 @@
-# Target journal matrix (Phase 7)
+# Target journal matrix (closure audit)
 
 Date frozen: 2026-03-22  
 Purpose: choose a **real** refereed mathematics outlet of worldwide repute for the standalone manuscript, consistent with the Clay rules.
